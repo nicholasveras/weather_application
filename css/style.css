@@ -31,6 +31,7 @@ body {
 
 .form h3 {
     margin-bottom: 1rem;
+    font-size: 20px;
 }
 
 .form-input-container {
@@ -63,9 +64,40 @@ body {
     text-align: center;
 }
 
-#weather-date h2 {
+#weather-data h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: .6rem;
+}
+
+#weather-data h2 i {
+    font-size: 1rem;
+}
+
+#weather-data span {
+    margin: 0.6rem;
+    font-size: 1.4rem;
+}
+
+#description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+    font-size: 20px;
+}
+
+#details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#details-container #umidity {
+    border-right: 1px solid #fff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+    font-size: 1rem;
 }
